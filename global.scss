@@ -1,0 +1,41 @@
+:root {
+	--background: #000000;
+	--background-value: 0, 0, 0;
+
+	--foreground: #2d2d2d;
+	--foreground-value: 45, 45, 45;
+
+	--font: #ffffff;
+	--font-value: 255, 255, 255;
+
+	--fontAlt: #979797;
+	--fontAlt-value: 151, 151, 151;
+
+	--lines: #ffffff;
+	--lines-value: 255, 255, 255;
+
+	--linesAlt: #414141;
+	--linesAlt-value: 65, 65, 65;
+
+	--accent: #0073ff;
+	--accent-value: 0, 115, 255;
+
+	--error: #ff0000;
+	--error-value: 255, 0, 0;
+
+	--warn: #ffa600;
+	--warn-value: 255, 255, 255;
+
+	--icon: invert(100%);
+	--icon-value: #ffffff;
+
+	--special: #7d4eff;
+	--special-value: 125, 78, 255;
+
+	--font-size: 12px;
+
+	// Animations
+	--anim-s: 0.3s;
+	--anim-m: 0.4s;
+	--anim-l: 0.7s;
+}

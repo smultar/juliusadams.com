@@ -1,0 +1,73 @@
+// Variables
+$lines: var(--lines);
+$lines-alt: var(--linesAlt);
+$font: var(--font);
+$font-alt: var(--fontAlt);
+$accent: var(--accent);
+$accent-value: var(--accent-value);
+$background-value: var(--background-value);
+$anim-s: var(--anim-s);
+
+footer {
+	width: 100%;
+	height: auto;
+
+	display: flex;
+	flex-direction: row;
+
+	align-items: center;
+	justify-content: center;
+
+	.footer-content {
+		width: 100%;
+		max-width: 600px;
+
+		display: flex;
+		flex-direction: row;
+
+		align-items: center;
+		justify-content: space-between;
+
+		padding: 20px;
+		box-sizing: border-box;
+
+		position: relative;
+		color: $font-alt;
+
+		.links {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			gap: 0px;
+
+			.link {
+				display: flex;
+				padding: 8px;
+				justify-content: center;
+				align-items: center;
+				gap: 8px;
+
+				background-color: transparent;
+				border: 1px solid transparent;
+
+				transition: all $anim-s ease;
+
+				font-size: 12px;
+
+				align-items: center;
+				justify-content: center;
+				display: flex;
+
+				object-fit: cover;
+
+				&:hover {
+					background-color: rgba($accent-value, 0.1);
+					border: 1px solid $accent;
+				}
+
+				border-radius: 8px;
+			}
+		}
+	}
+}
