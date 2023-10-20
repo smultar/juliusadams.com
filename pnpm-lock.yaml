@@ -6,14 +6,14 @@ settings:
 
 dependencies:
   '@cloudflare/next-on-pages':
-    specifier: ^1.7.0
-    version: 1.7.0(vercel@32.4.1)(wrangler@3.13.2)
+    specifier: ^1.7.1
+    version: 1.7.1(vercel@32.4.1)(wrangler@3.13.2)
   '@types/node':
     specifier: 20.8.7
     version: 20.8.7
   '@types/react':
-    specifier: 18.2.29
-    version: 18.2.29
+    specifier: 18.2.30
+    version: 18.2.30
   '@types/react-dom':
     specifier: 18.2.14
     version: 18.2.14
@@ -68,8 +68,8 @@ packages:
       mime: 3.0.0
     dev: false
 
-  /@cloudflare/next-on-pages@1.7.0(vercel@32.4.1)(wrangler@3.13.2):
-    resolution: {integrity: sha512-Zcs3oA1ieByJhnqxdtaBTfYkCfAmhYdnw3kAecECqETV1TqjeG/YZwwgTsLBOW/JdxGxmEuC5yP0xjMLbwb4Ig==}
+  /@cloudflare/next-on-pages@1.7.1(vercel@32.4.1)(wrangler@3.13.2):
+    resolution: {integrity: sha512-e/BhKdkxzJpL+BzXeWRtNAUAcVVu7+KZrY6KX9yhPlYXEBXjhh+Cmxjh8xqn5cBWGld4ZSZa/KYHs0wRZewsMA==}
     hasBin: true
     peerDependencies:
       vercel: '>=30.0.0'
@@ -82,7 +82,7 @@ packages:
       cookie: 0.5.0
       esbuild: 0.15.18
       js-yaml: 4.1.0
-      package-manager-manager: 0.1.2
+      package-manager-manager: 0.1.3
       pcre-to-regexp: 1.1.0
       semver: 7.5.4
       vercel: 32.4.1
@@ -695,11 +695,11 @@ packages:
   /@types/react-dom@18.2.14:
     resolution: {integrity: sha512-V835xgdSVmyQmI1KLV2BEIUgqEuinxp9O4G6g3FqO/SqLac049E53aysv0oEFD2kHfejeKU+ZqL2bcFWj9gLAQ==}
     dependencies:
-      '@types/react': 18.2.29
+      '@types/react': 18.2.30
     dev: false
 
-  /@types/react@18.2.29:
-    resolution: {integrity: sha512-Z+ZrIRocWtdD70j45izShRwDuiB4JZqDegqMFW/I8aG5DxxLKOzVNoq62UIO82v9bdgi+DO1jvsb9sTEZUSm+Q==}
+  /@types/react@18.2.30:
+    resolution: {integrity: sha512-OfqdJnDsSo4UNw0bqAjFCuBpLYQM7wvZidz0hVxHRjrEkzRlvZL1pJVyOSY55HMiKvRNEo9DUBRuEl7FNlJ/Vg==}
     dependencies:
       '@types/prop-types': 15.7.9
       '@types/scheduler': 0.16.5
@@ -3542,8 +3542,8 @@ packages:
       p-limit: 3.1.0
     dev: false
 
-  /package-manager-manager@0.1.2:
-    resolution: {integrity: sha512-uMRn4geEUBbdTvz+sj+tZaIIMWsbOQG5yOJD2KeeqXbmfoNxUBNOWyWM0afLDPDrl7ZTJ8//hJ7V2BhlNl9WiQ==}
+  /package-manager-manager@0.1.3:
+    resolution: {integrity: sha512-dRIqYwFfhkPxwwODejHZybnD5L1JSyK7u7LKiYYlTaUq6BaTH1iFHhJ7RFft86Q3n3pqQhJCjwa6UtsWPkTyDA==}
     dependencies:
       js-yaml: 4.1.0
       shellac: 0.8.0
