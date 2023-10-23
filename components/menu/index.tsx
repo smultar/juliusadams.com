@@ -13,17 +13,17 @@ const Menu = () => {
 						Julius <span>Adams</span>
 					</p>
 				</div>
-				<div className='links'>
+				{/* <div className='links'>
 					<Link href='/'>Home</Link>
 					<Link href='/store'>Store</Link>
 					<Link href='/music'>Music</Link>
 					<Link href='/contact'>Contact</Link>
-				</div>
-				<div className='account'>
+				</div> */}
+				{/* <div className='account'>
 					<Link href='/account'>
 						<Image src='/svgs/account.svg' width={26} height={26} alt='Sign-in' />
 					</Link>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);
