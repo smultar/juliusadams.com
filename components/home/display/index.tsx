@@ -19,24 +19,24 @@ const Display = () => {
 				<div className='places'>
 					<div className='line'></div>
 					<div className='links'>
-						<Link href='https://open.spotify.com/artist/5Z5Z1jJZ4Z2Qq9xq6Y1Y5u?si=5e2e9e9c9b3c4b0d' passHref target='_blank'>
+						<Link href='https://open.spotify.com/artist/0j1rkk9rCD6ak61ZCgeVVY' passHref target='_blank'>
 							<p className='link'>
 								<Image src='/svgs/spotify.svg' width={14} height={14} alt='Spotify' />
 								Spotify
 							</p>
 						</Link>
-						<Link href='https://open.spotify.com/artist/5Z5Z1jJZ4Z2Qq9xq6Y1Y5u?si=5e2e9e9c9b3c4b0d' passHref target='_blank'>
+						<Link href='https://music.apple.com/us/artist/julius-adams/251451739' passHref target='_blank'>
 							<p className='link'>
 								<Image src='/svgs/itunes.svg' width={14} height={14} alt='Spotify' />
 								iTunes
 							</p>
 						</Link>
-						<Link href='https://open.spotify.com/artist/5Z5Z1jJZ4Z2Qq9xq6Y1Y5u?si=5e2e9e9c9b3c4b0d' passHref target='_blank'>
+						{/* <Link href='https://open.spotify.com/artist/5Z5Z1jJZ4Z2Qq9xq6Y1Y5u?si=5e2e9e9c9b3c4b0d' passHref target='_blank'>
 							<p className='link'>
 								<Image src='/svgs/radio.svg' width={14} height={14} alt='Spotify' />
 								Radio
 							</p>
-						</Link>
+						</Link> */}
 					</div>
 					<div className='line'></div>
 				</div>
