@@ -13,6 +13,25 @@ type LayoutProps = {
 const metadata: Metadata = {
 	title: 'Julius Adams',
 	description: 'Julius Adams is a musical artist based in the United States.',
+	twitter: {
+		card: 'summary',
+		site: '@juliusadams14',
+	},
+	openGraph: {
+		type: 'website',
+		locale: 'en_US',
+		url: 'https://juliusadams.com',
+		siteName: 'Julius Adams',
+		description: 'Julius Adams is a musical artist based in the United States.',
+		images: [
+			{
+				url: 'https://juliusadams.com/images/og.png',
+				width: 1200,
+				height: 600,
+				alt: 'Julius Adams',
+			},
+		],
+	},
 };
 
 const Layout = ({ children }: LayoutProps) => {
